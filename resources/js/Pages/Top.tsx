@@ -3,7 +3,7 @@ import Header from '../Common/Header';
 
 const Top = () => {
   return (
-    <div>test</div>
+    <Header />
   );
 };
 
