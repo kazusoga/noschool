@@ -1,9 +1,13 @@
 import React from "react";
 import Header from '../Common/Header';
+import QuestionHeader from '../Common/QuestionHeader'
 
 const Top = () => {
   return (
-    <Header />
+    <div>
+      <Header />
+      <QuestionHeader />
+    </div>
   );
 };
 
