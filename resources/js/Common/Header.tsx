@@ -63,15 +63,7 @@ const Header = () => {
       },
       root: {
         position: 'relative'
-      },
-      fab: {
-        position: 'fixed',
-        bottom: theme.spacing(2),
-        right: theme.spacing(2),
-        width: theme.spacing(12),
-        height: theme.spacing(12),
-        zIndex: 20,
-      },
+      }
   }));
 
   const classes = useStyles();
